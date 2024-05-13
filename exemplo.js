@@ -1,36 +1,53 @@
-//Apresentar alguma mensagem na tela
-// alert("Hello Word!")
+// For - loop contato
 
-//Apresenta uma mensagem no console
-// console.log("Console:Hello Word!")
+//Contando do 0 ao 10
+//for(let num = 0; num <= 10; num++){
+    //console.log(num);
+//}
 
-//Apresenta uma mensagem
-// prompet( mensagem na tela que pega alguma informação )
-
-//Pegando um nome e apresentando na tela
-// let nome = prompt("Digite o seu nome: ")
-
-// console.log("Bem vindo! " + nome)
+//Contagem regressiva 
+//for(let cont = 10; cont >=0; cont--){
+//console.log(cont);
+//}
 
 
-//Fazendo conta com javascript
+//While - loop condicional
 
-//parseInt => Transforma o que está entre () em um número inteiro: 1, 2, 3. ....
-//let nota1 = parseInt(prompt("Digite uma nota"));
+//let salario = 1000;
 
-//let nota2 = parseInt(prompt("Digite outra nota: "));
+//while( salario < 5000){
+    //Salario = salario + 100;
+//    salario += 100;
+
+//    console.log("O salario ainda é R$ " + salario)
+//}
+
+//Do While - loop condicional
+
+//let saldo = 1000;
+
+//do{
+    //console.log("Esse é o saldo:" + saldo);
+    //saldo += 100;
+
+//}while(saldo < 5000); 
+
+//Array
+let fruta = ["Banana", "Laranja", "Maçã","Pitaya", "Melancia"]
+
+//console.log(frutas[3]);
+
+//forEach => percorre uma lista
+//frutas.forEach(fruta => {
+//    console.log("A fruta é: " + fruta );    
+//});
+
+//Percorrendo uma lista com for
+// .length >= quantidade de elementos dentro de um array
+for(let indice = 0; indice < frutas.length; indice++){
+    console.log(frutas[indice]);
+    if(frutas[indice] == "Pitaya"){
 
 
-// let media = (nota1 + nota2) /2
-
-// console.log(media)
-
-
-//parseFloat => Transforma o que está entre () em número com vírgula / número frasionado
-let pronduto1 = parseFloat(prompt("Digite o valor do produto: "))
-
-let produto2 = parseFloat(prompt("Digite o valor do segundo produto: "))
-
-let soma = pronduto1 + produto2;
-
-console.log(soma)
+    }
+}
