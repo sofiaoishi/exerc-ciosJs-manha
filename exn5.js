@@ -9,5 +9,5 @@ function fibonacciSequence(n) {
     
     } return fibonacci.slice(0, n); 
 } 
-    
+     
 console.log(fibonacciSequence(10));
